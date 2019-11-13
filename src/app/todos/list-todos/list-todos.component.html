@@ -1,0 +1,14 @@
+<ng-container *ngIf="todos$ | async as todos">
+  <div class="list is-full is-hoverable">
+    <div style="cursor: pointer;" *ngFor="let todo of todos; let i = index" class="list-item">
+      <div class="columns" (click)="toggleTodoStatus(todo)">
+        <div class="column">
+          <div class="content is-large">{{ todo.todo }}</div>
+        </div>
+        <div class="column is-narrow">
+          <input class="is-large" [checked]="todo.isDone" readonly type="checkbox">
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-container>

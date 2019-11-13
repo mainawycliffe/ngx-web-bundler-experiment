@@ -122,8 +122,16 @@
               "devServerTarget": "experimental-web-bundles:serve:production"
             }
           }
+        },
+        "gen-bundle": {
+          "builder": "@lacolaco/ngx-web-bundles:generate",
+          "options": {
+            "browserTarget": "experimental-web-bundles:build:production",
+            "primaryURL": "https://ngx-web.bundles"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "experimental-web-bundles"
 }
