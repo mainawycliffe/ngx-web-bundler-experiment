@@ -6,7 +6,9 @@ This is an experiment for building web bundles using Angular. It use
 application to a web budles application that can be distributed online.
 
 You can download the `todoapp.wbn` file
-([download](https://github.com/mainawycliffe/ngx-web-bundler-experiment/raw/master/todoapp.wbn)) at the root of this repo and drag and drop it into your chrome (v80+) is required.
+([download](https://github.com/mainawycliffe/ngx-web-bundler-experiment/raw/master/todoapp.wbn))
+at the root of this repo and drag and drop it into your Chrome/Edge Web Browser
+(v80+) is required.
 
 ## Building this Angular App
 
