@@ -1,27 +1,21 @@
-# ExperimentalWebBundles
+# Web Bundles using Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.17.
+This is an experiment for building web bundles using Angular. It use
+[ngx-web-bundles](https://github.com/lacolaco/ngx-web-bundles) builder package
+(thanks to [@lacolaco](https://github.com/lacolaco)) to turn a normal angular
+application to a web budles application that can be distributed online.
 
-## Development server
+You can download the `todoapp.wbn` file at the root of this repo and drag and
+drop it into your chrome (v80+) is required.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Building this Angular App
 
-## Code scaffolding
+- Clone the repo - `git clone https://github.com/lacolaco/ngx-web-bundles.git`
+- Install dependancies - `yarn install` or `npm install`
+- Build web bundles - `ng run experimental-web-bundles:gen-bundle`
+- Or serve the application - `ng s --aot`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Resources
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- [Web Bundles](https://web.dev/web-bundles/)
+- [ngx-web-bundles](https://github.com/lacolaco/ngx-web-bundles)
