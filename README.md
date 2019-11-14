@@ -1,4 +1,4 @@
-# Web Bundles using Angular
+# Web Bundles using Angular (Todo App)
 
 This is an experiment for building web bundles using Angular. It use
 [ngx-web-bundles](https://github.com/lacolaco/ngx-web-bundles) builder package
